@@ -39,8 +39,7 @@ class DrugsController < ApplicationController
   # POST /drugs
   # POST /drugs.json
   def create
-    @drug = Drug.new(params[:drug])
-    @drug.patient_id = current_patient.id
+    @drug = current_patient.drugs.new(params[:drug])
 
     respond_to do |format|
       if @drug.save
