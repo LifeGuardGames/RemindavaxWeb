@@ -2,49 +2,53 @@
 .DS_Store
 
 # Thumbnails
- ._*
+._*
 
- # Files that might appear on external disk
- .Spotlight-V100
- .Trashes
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
- # Vim
- .*.sw[a-z]
- *.un~
- Session.vim
+# Vim
+.*.sw[a-z]
+*.un~
+Session.vim
 
- # Emacs
- *~
- \#*\#
- /.emacs.desktop
- /.emacs.desktop.lock
- .elc
- auto-save-list
- tramp
- .\#*
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
 
- # Org-mode
- .org-id-locations
- *_archive
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
 
- # Linux
- .*
- !.gitignore
- *~
+# Org-mode
+.org-id-locations
+*_archive
 
- # KDE
- .directory
+# Linux
+.*
+!.gitignore
+*~
 
- # Rails
- *.rbc
- *.sassc
- .sass-cache
- capybara-*.html
- .rspec
- /.bundle
- /vendor/bundle
- /log/*
- /tmp/*
- /db/*.sqlite3
- /public/system/*
- /coverage/
+# KDE
+.directory
+
+# Rails
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
